@@ -1,0 +1,62 @@
+body {
+  background-image: url("../images/Kobe-bryant-muse-showtime-documentary-01.jpg");
+}
+
+.floating-box {
+  width: 400px;
+    height: 110px;
+    margin: auto;
+    border: 3px solid gray;
+    color: white;
+    background-color: gray;
+
+
+}
+
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+
+}
+
+div {
+  color: white;
+}
+
+
+#after_submit {
+  visibility: hidden;
+}
+
+input {
+  font-size: 30px;
+}
+
+
+
+.container {
+  color: gold;
+  font-size: 20px;
+
+}
+
+
+#wrapper {
+  background-color: gold;
+  
+}
+
+#myTimer {
+  font:150px Tahoma bold;
+  margin-top: 60px;
+  text-align: center;
+  
+}
+
+
+
+
+

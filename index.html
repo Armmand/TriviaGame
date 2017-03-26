@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Kobe Bean Trivia</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+
+    <h1>Kobe Trivia</h1>
+
+    <form id= "quiz" name= "quiz">
+
+    <h1>"Who is Kobe Bean Bryant?"</h1><br>
+ <div class= "container">
+
+ <!--THESE ARE THE DIRECTIONS ON  WHAT YOU NEED TO DO -->
+    <p> Hi, My name is Armmand Alston and I created this trivia webpage to see jsut how much you really know about Kobe Bryant. Please take a shot at at, If you find your self not knowing the answer to the question take a quick guess. Remember you only have 35 seconds to anwser all the questions. Don't Google!!!!!</p></div>
+
+
+<!--THIS IS THE BUTTON FOR THE CLOCK-->
+
+<div id="wrapper">
+  <div id="myTimer"></div>
+  <button type="button" id="myBtn" class="btnDisable" disabled onclick="alert('Time is up')"></button>
+</div>
+
+<!-- THIS IS WHERE I STARTED WRINTING THE QUIZE QUESTIONS -->
+    <div class="floating-box">
+        <p>At what age was Kobe Byant drafted into the NBA?</p>
+                 <input type="radio" id="mc"name="question1" value="Age 19"> Age 19<br>
+                 <input type = "radio" id = "mc"name = "question1" value = "Age 18"> Age 18<br>
+                 <input type = "radio" id = "mc"name = "question1" value = "Age 21"> Age 21<br>
+    </div>
+
+
+<div class="floating-box">
+       <p>How many playoff games has Kobe Bryant played in?</p>
+                 <input type = "radio" id = "mc"name = "question2" value = "300"> 300<br>
+                 <input type = "radio" id = "mc"name = "question2" value = "30"> 30<br>
+                 <input type = "radio" id = "mc"name = "question2" value = "201"> 201<br>
+</div>
+
+<div class="floating-box">
+       <p>How many teams has Kobe Bryant played for?</p>
+                 <input type = "radio" id = "mc"name = "question3" value = "5"> 5<br>
+                 <input type = "radio" id = "mc"name = "question3" value = "1"> 1<br>
+                 <input type = "radio" id = "mc"name = "question3" value = "3"> 3<br>
+</div>
+
+<div class="floating-box">
+      <p>What was Kobe Byant's fathers nickname in the NBA?</p>
+                 <input type = "radio" id = "mc"name = "question4" value = "Joe Joe"> "Joe Joe"<br>
+                 <input type = "radio" id = "mc"name = "question4" value = "Mr. Bean"> "Mr. Bean"<br>
+                 <input type = "radio" id = "mc"name = "question4" value = "Jelly Bean"> "Jelly Bean"<br>
+</div>
+
+<div class="floating-box">
+      <p>How long did Kobe Bryant play in the NBA?</p>
+                 <input type = "radio" id = "mc"name = "question5" value = "20 years"> 20 years<br>
+                 <input type = "radio" id = "mc"name = "question5" value = "19 years"> 19 years<br>
+                 <input type = "radio" id = "mc"name = "question5" value = "18 years"> 18 years<br>
+
+<!-- THSI THE BUTTON THAT YOU CLICK WHEN YOU FINISH THE QUESTIONS -->
+<input id= "button" type= "button" value= "I'm finished!" onclick= "check();">
+
+
+</form>
+
+
+         <div id="after_submit">
+	          <p id="number_correct">Finished!</p>
+</div>
+</div>
+
+
+
+<!-- SCRIPT TAG FOT JAVASRIPT-->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
