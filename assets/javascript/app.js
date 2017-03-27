@@ -46,9 +46,7 @@ function countDown() {
     myTimer.innerHTML = sec;
   }
   if (sec <= 0) {
-    $("#myBtn").removeAttr("disabled");
     $("#myBtn").removeClass().addClass("btnEnable");
-    $("#myTimer").fadeTo(2500, 0);
     myBtn.innerHTML = "Time is up!";
     return;
   }
