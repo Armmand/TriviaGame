@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/Kobe-bryant-muse-showtime-documentary-01.jpg")
+  background-image: url("../images/kobe-bryant-muse-showtime-documentary-01.jpg");
 }
 
 .floating-box {
@@ -44,19 +44,20 @@ input {
 }
 
 
-#wrapper {
-  background-color: gold;
-  
-}
 
+  
 #myTimer {
   font:150px Tahoma bold;
-  margin-top: 60px;
+  margin-top: 0px;
   text-align: center;
-  
+  color: gold;
+
 }
 
+p {
+  border-style: solid;
+  border-color: gold;
 
-
+}
 
 
